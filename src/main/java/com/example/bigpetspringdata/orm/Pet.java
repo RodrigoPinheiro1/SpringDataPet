@@ -16,7 +16,7 @@ public class Pet {
     private Long id;
 
     @Column (name = "animaisEstimacao")
-    private Animal animal;
+    private String animal;
 
     private String nome;
 
